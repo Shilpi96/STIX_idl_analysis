@@ -55,9 +55,9 @@ mem_ge_map=stx_mem_ge(vis,imsize,pixel,aux_data)
 ;loadct,5,/silent
 ;window, 0
 ;cleanplot
-;plot_map, mem_ge_map, /cbar,title='MEM_GE - CLEAN contour (50%)'
+;plot_map, mem_ge_map, /cbar,title='MEM_GE - CLEAN contour (50%)' ;this shows the mem_ge plot
 
-;stx_plot_fit_map, mem_ge_map, this_window=1
+;stx_plot_fit_map, mem_ge_map, this_window=1 ; visibility amplitude and phase fit vs detectors plots
 
 
 ;******************************** Save maps to fits*************************
